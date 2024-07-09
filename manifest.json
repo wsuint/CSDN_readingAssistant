@@ -1,0 +1,20 @@
+{
+    "name": "阅读助手（CSDN）",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "检测到打开CSDN文章界面时，会自动打开一个可复制文章的新窗口",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://blog.csdn.net/*"],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
