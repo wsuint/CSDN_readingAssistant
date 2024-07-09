@@ -1,0 +1,2 @@
+# CSDN_readingAssistant
+检测到打开CSDN文章界面时，会自动打开一个可复制文章的新窗口
